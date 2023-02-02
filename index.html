@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login UI</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-avatar">
+           
+            <img src="./Assets/login-illustration.png" alt="">
+        </div>
+        <div class="login-form">
+            <div class="login-form-container">
+                <h1>Accio-Chat</h1>
+                <div class="login-form-input">
+                    <!-- <label >Email</label> -->
+                    <input id="input-email" type="email" placeholder="Enter Your Email" autocomplete="email">
+
+                    <div  id="input-email-Warning" class="input-Warning"></div>
+
+
+                </div>
+                <div class="login-form-input">
+                    <!-- <label >Passward</label> -->
+                    <input id="input-password" type="password" placeholder="Enter your Password">
+                    <div id="input-password-Warning" class="input-Warning"></div>
+
+                </div>
+                <div class="login-form-input">
+                    <!-- <label >Passward</label> -->
+                    <input id="input-conpassword" type="password" placeholder="Confirm Passward">
+                    <div id="input-conpassword-Warning" class="input-Warning"></div>
+
+                </div>
+                <div class="login-form-btn">
+                    <button onclick="login()">Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
